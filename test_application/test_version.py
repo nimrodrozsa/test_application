@@ -25,7 +25,7 @@ except (IOError, FileNotFoundError,) as e:
     print(e)
     print_number(new_number)
 except:
-    print('Exception:', sys.exc_info()[0])
+    print('Unexpected exception:', sys.exc_info()[0])
 
 
     
